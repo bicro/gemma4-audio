@@ -132,6 +132,12 @@ Matched target words:
 small, adapter, conditions, clear, through, frozen
 ```
 
+The blog sample artifacts are checked in at:
+
+```text
+artifacts/audio_prompt_step850/
+```
+
 ## Important Caveats
 
 This is not broad speech-to-speech instruction following. It is a controlled

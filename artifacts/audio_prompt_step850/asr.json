@@ -1,0 +1,45 @@
+{
+  "metadata": "/workspace/runs/gemma_kyutai_mimi_audio_prompt_contained_trained_20260508_2245/eval_audio_step_850/samples/metadata.json",
+  "min_correct_words": 2,
+  "min_passing_samples": 1,
+  "model": "openai/whisper-small.en",
+  "passed": true,
+  "passing_samples": 1,
+  "results": [
+    {
+      "audio": "/workspace/runs/gemma_kyutai_mimi_audio_prompt_contained_trained_20260508_2245/eval_audio_step_850/samples/sample_00_gemma_audio_input_mimi_head_peak_norm.wav",
+      "correct_count": 6,
+      "correct_words": [
+        "adapter",
+        "clear",
+        "conditions",
+        "frozen",
+        "small",
+        "through"
+      ],
+      "passed": true,
+      "target": "the small adapter conditions clear speech through frozen layers.",
+      "target_words": [
+        "adapter",
+        "clear",
+        "conditions",
+        "frozen",
+        "layers",
+        "small",
+        "speech",
+        "through"
+      ],
+      "transcript": "The small adapter conditions clear speeds through frozen mirrors.",
+      "transcript_words": [
+        "adapter",
+        "clear",
+        "conditions",
+        "frozen",
+        "mirrors",
+        "small",
+        "speeds",
+        "through"
+      ]
+    }
+  ]
+}

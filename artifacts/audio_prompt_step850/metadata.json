@@ -1,0 +1,32 @@
+{
+  "checkpoint": "/workspace/runs/gemma_kyutai_mimi_audio_prompt_contained_trained_20260508_2245/train/mimi-head-step-850.pt",
+  "frame_rate": 12.5,
+  "gemma_model_path": "google/gemma-4-E4B-it",
+  "input_mode": "audio_only_no_text_instruction",
+  "instruction": "",
+  "mimi_repo": "kyutai/moshiko-pytorch-bf16",
+  "mimi_weight": "tokenizer-e351c8d8-checkpoint125.safetensors",
+  "samples": [
+    {
+      "adapter_audio_samples": 88320,
+      "adapter_code_shape": [
+        8,
+        46
+      ],
+      "adapter_wav": "/workspace/runs/gemma_kyutai_mimi_audio_prompt_contained_trained_20260508_2245/eval_audio_step_850/samples/sample_00_gemma_audio_input_mimi_head_peak_norm.wav",
+      "input_audio": "/workspace/runs/gemma_kyutai_mimi_audio_prompt_contained_trained_20260508_2245/eval_audio_step_850/samples/sample_00_qwen_tts_input.wav",
+      "input_duration_sec": 6.8281875,
+      "input_peak": 0.750244140625,
+      "input_rms": 0.11929038912057877,
+      "label": "the small adapter conditions clear speech through frozen layers.",
+      "normalization_peak_before": 0.5404052734375,
+      "peak": 0.5404085516929626,
+      "raw_adapter_wav": "/workspace/runs/gemma_kyutai_mimi_audio_prompt_contained_trained_20260508_2245/eval_audio_step_850/samples/sample_00_gemma_audio_input_mimi_head.wav",
+      "rms": 0.06307726353406906,
+      "sample_rate": 24000,
+      "source_audio": "/workspace/inputs/audio_prompt_prefix_plus_qwen_blog_sample_03.wav",
+      "source_sample_rate": 16000
+    }
+  ],
+  "target_frames": 46
+}

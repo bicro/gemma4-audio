@@ -1,4 +1,4 @@
-# Gemma 4 E4B Audio Head Smoke Test
+# Grafting a Speech Head onto Gemma 4 E4B
 
 This repo packages a small research demo for mapping frozen Gemma 4 E4B hidden
 states into Kyutai Mimi codec tokens.
@@ -39,13 +39,15 @@ recognizable speech.
   committed to git.
 - `artifacts/step500/`: generated step-500 WAVs, ASR logs, metadata, and the
   head config.
+- `artifacts/audio_prompt_step850/`: the blog's no-text audio-input/audio-output
+  sample, metadata, and ASR output from the step-850 continuation.
 
 ## Large Files Not Included
 
-The trained step-500 checkpoint, full teacher WAV directory, and Gemma
-hidden-state caches are not checked in. The repo includes the code, manifests,
-Mimi token targets, generated samples, and logs needed to inspect the run and
-rerun the pipeline locally.
+The trained step-500 and step-850 checkpoints, full teacher WAV directories,
+derived prompt-contained WAV dataset, and Gemma hidden-state caches are not
+checked in. The repo includes the code, manifests, Mimi token targets, generated
+samples, and logs needed to inspect the run and rerun the pipeline locally.
 
 ## Install
 
@@ -141,6 +143,9 @@ The small adapter conditions clear speeds through frozen mirrors.
 
 That matched six target words: `small`, `adapter`, `conditions`, `clear`,
 `through`, and `frozen`.
+
+The exact input/output WAVs from the blog are checked in under
+`artifacts/audio_prompt_step850/generated_samples/`.
 
 ## Training The Audio-Input Path
 

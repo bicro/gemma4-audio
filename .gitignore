@@ -18,3 +18,4 @@ verify_train/
 # Allow the small checked-in WAV demo subset and generated sample outputs.
 !data/mini/audio/**/*.wav
 !artifacts/step500/generated_samples/**/*.wav
+!artifacts/audio_prompt_step850/generated_samples/**/*.wav
