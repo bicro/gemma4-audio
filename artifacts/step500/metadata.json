@@ -1,0 +1,190 @@
+{
+  "checkpoint": "/workspace/runs/gemma_kyutai_mimi_default_voice_smoke_20260507_234141/train/mimi-head-step-500.pt",
+  "frame_rate": 12.5,
+  "gemma_model_path": "google/gemma-4-E4B-it",
+  "mimi_repo": "kyutai/moshiko-pytorch-bf16",
+  "mimi_weight": "tokenizer-e351c8d8-checkpoint125.safetensors",
+  "samples": [
+    {
+      "adapter_audio_samples": 86400,
+      "adapter_code_shape": [
+        8,
+        45
+      ],
+      "adapter_wav": "/workspace/runs/gemma_kyutai_mimi_default_voice_smoke_15_samples/samples/sample_00_gemma_mimi_head.wav",
+      "peak": 0.5038804411888123,
+      "rms": 0.0577717199921608,
+      "sample_rate": 24000,
+      "text": "the final layer generates audio codes for the demo."
+    },
+    {
+      "adapter_audio_samples": 86400,
+      "adapter_code_shape": [
+        8,
+        45
+      ],
+      "adapter_wav": "/workspace/runs/gemma_kyutai_mimi_default_voice_smoke_15_samples/samples/sample_01_gemma_mimi_head.wav",
+      "peak": 0.3874642550945282,
+      "rms": 0.03717558830976486,
+      "sample_rate": 24000,
+      "text": "the teacher model connects the final sample for the demo."
+    },
+    {
+      "adapter_audio_samples": 86400,
+      "adapter_code_shape": [
+        8,
+        45
+      ],
+      "adapter_wav": "/workspace/runs/gemma_kyutai_mimi_default_voice_smoke_15_samples/samples/sample_02_gemma_mimi_head.wav",
+      "peak": 0.42475563287734985,
+      "rms": 0.04645032808184624,
+      "sample_rate": 24000,
+      "text": "the training run maps short phrases from text prompts."
+    },
+    {
+      "adapter_audio_samples": 86400,
+      "adapter_code_shape": [
+        8,
+        45
+      ],
+      "adapter_wav": "/workspace/runs/gemma_kyutai_mimi_default_voice_smoke_15_samples/samples/sample_03_gemma_mimi_head.wav",
+      "peak": 0.6259195804595947,
+      "rms": 0.06493908166885376,
+      "sample_rate": 24000,
+      "text": "the small adapter conditions clear speech through frozen layers."
+    },
+    {
+      "adapter_audio_samples": 86400,
+      "adapter_code_shape": [
+        8,
+        45
+      ],
+      "adapter_wav": "/workspace/runs/gemma_kyutai_mimi_default_voice_smoke_15_samples/samples/sample_04_gemma_mimi_head.wav",
+      "peak": 0.35787564516067505,
+      "rms": 0.03343973308801651,
+      "sample_rate": 24000,
+      "text": "the speech head generates the voice output from text prompts."
+    },
+    {
+      "adapter_audio_samples": 86400,
+      "adapter_code_shape": [
+        8,
+        45
+      ],
+      "adapter_wav": "/workspace/runs/gemma_kyutai_mimi_default_voice_smoke_15_samples/samples/sample_05_gemma_mimi_head.wav",
+      "peak": 0.609569251537323,
+      "rms": 0.07123781740665436,
+      "sample_rate": 24000,
+      "text": "the voice sample conditions the final sample for the demo."
+    },
+    {
+      "adapter_audio_samples": 86400,
+      "adapter_code_shape": [
+        8,
+        45
+      ],
+      "adapter_wav": "/workspace/runs/gemma_kyutai_mimi_default_voice_smoke_15_samples/samples/sample_06_gemma_mimi_head.wav",
+      "peak": 0.7352107763290405,
+      "rms": 0.047137584537267685,
+      "sample_rate": 24000,
+      "text": "the teacher model matches the waveform from text prompts."
+    },
+    {
+      "adapter_audio_samples": 86400,
+      "adapter_code_shape": [
+        8,
+        45
+      ],
+      "adapter_wav": "/workspace/runs/gemma_kyutai_mimi_default_voice_smoke_15_samples/samples/sample_07_gemma_mimi_head.wav",
+      "peak": 0.35177144408226013,
+      "rms": 0.04348791390657425,
+      "sample_rate": 24000,
+      "text": "Now the frozen talker improves clear speech."
+    },
+    {
+      "adapter_audio_samples": 86400,
+      "adapter_code_shape": [
+        8,
+        45
+      ],
+      "adapter_wav": "/workspace/runs/gemma_kyutai_mimi_default_voice_smoke_15_samples/samples/sample_08_gemma_mimi_head.wav",
+      "peak": 0.502490222454071,
+      "rms": 0.04660329595208168,
+      "sample_rate": 24000,
+      "text": "the codec target predicts the teacher target with stable timing."
+    },
+    {
+      "adapter_audio_samples": 86400,
+      "adapter_code_shape": [
+        8,
+        45
+      ],
+      "adapter_wav": "/workspace/runs/gemma_kyutai_mimi_default_voice_smoke_15_samples/samples/sample_09_gemma_mimi_head.wav",
+      "peak": 0.49818605184555054,
+      "rms": 0.04619434475898743,
+      "sample_rate": 24000,
+      "text": "the voice sample maps the final sample from text prompts."
+    },
+    {
+      "adapter_audio_samples": 86400,
+      "adapter_code_shape": [
+        8,
+        45
+      ],
+      "adapter_wav": "/workspace/runs/gemma_kyutai_mimi_default_voice_smoke_15_samples/samples/sample_10_gemma_mimi_head.wav",
+      "peak": 0.5602373480796814,
+      "rms": 0.05338488519191742,
+      "sample_rate": 24000,
+      "text": "the teacher model predicts the voice output for the demo."
+    },
+    {
+      "adapter_audio_samples": 86400,
+      "adapter_code_shape": [
+        8,
+        45
+      ],
+      "adapter_wav": "/workspace/runs/gemma_kyutai_mimi_default_voice_smoke_15_samples/samples/sample_11_gemma_mimi_head.wav",
+      "peak": 0.4091118276119232,
+      "rms": 0.04148898646235466,
+      "sample_rate": 24000,
+      "text": "the teacher model generates audio codes from text prompts."
+    },
+    {
+      "adapter_audio_samples": 86400,
+      "adapter_code_shape": [
+        8,
+        45
+      ],
+      "adapter_wav": "/workspace/runs/gemma_kyutai_mimi_default_voice_smoke_15_samples/samples/sample_12_gemma_mimi_head.wav",
+      "peak": 0.5372051000595093,
+      "rms": 0.05284145846962929,
+      "sample_rate": 24000,
+      "text": "the Qwen decoder guides the waveform from text prompts."
+    },
+    {
+      "adapter_audio_samples": 86400,
+      "adapter_code_shape": [
+        8,
+        45
+      ],
+      "adapter_wav": "/workspace/runs/gemma_kyutai_mimi_default_voice_smoke_15_samples/samples/sample_13_gemma_mimi_head.wav",
+      "peak": 0.41662609577178955,
+      "rms": 0.037682633846998215,
+      "sample_rate": 24000,
+      "text": "the teacher model connects the talker states."
+    },
+    {
+      "adapter_audio_samples": 86400,
+      "adapter_code_shape": [
+        8,
+        45
+      ],
+      "adapter_wav": "/workspace/runs/gemma_kyutai_mimi_default_voice_smoke_15_samples/samples/sample_14_gemma_mimi_head.wav",
+      "peak": 0.6373721957206726,
+      "rms": 0.05717392638325691,
+      "sample_rate": 24000,
+      "text": "the final layer controls the waveform with stable timing."
+    }
+  ],
+  "target_frames": 45
+}

@@ -1,0 +1,26 @@
+{
+  "frame_rate": 12.5,
+  "input_dir": "/workspace/data/kyutai_mimi_default_voice_smoke",
+  "mimi_repo": "kyutai/moshiko-pytorch-bf16",
+  "mimi_weight": "tokenizer-e351c8d8-checkpoint125.safetensors",
+  "num_codebooks": 8,
+  "output_dir": "/workspace/data/kyutai_mimi_default_voice_smoke",
+  "sample_rate": 24000,
+  "splits": {
+    "test": {
+      "frames_max": 63,
+      "frames_min": 30,
+      "rows": 36
+    },
+    "train": {
+      "frames_max": 67,
+      "frames_min": 30,
+      "rows": 128
+    },
+    "valid": {
+      "frames_max": 54,
+      "frames_min": 34,
+      "rows": 36
+    }
+  }
+}

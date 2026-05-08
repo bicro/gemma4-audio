@@ -1,0 +1,11 @@
+{
+  "adapter_hidden_size": 1536,
+  "bridge_num_heads": 8,
+  "dropout": 0.05,
+  "gemma_hidden_size": 2560,
+  "gemma_layer_count": 6,
+  "max_audio_frames": 128,
+  "mimi_cardinality": 2048,
+  "mimi_codebooks": 8,
+  "num_bridge_layers": 4
+}

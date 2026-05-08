@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+runs/
+verify_samples/
+verify_train/
+
+# Keep heavyweight binary artifacts out of normal git history.
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+*.zip
+*.tar.gz
+
+# Allow the small checked-in WAV demo subset and generated sample outputs.
+!data/mini/audio/**/*.wav
+!artifacts/step500/generated_samples/**/*.wav

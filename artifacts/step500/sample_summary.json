@@ -1,0 +1,213 @@
+{
+  "asr_passed": true,
+  "asr_passing_samples": 8,
+  "checkpoint": "/workspace/runs/gemma_kyutai_mimi_default_voice_smoke_20260507_234141/train/mimi-head-step-500.pt",
+  "note": "Generated from Gemma hidden states into a trained Mimi token head; no text is passed to Kyutai TTS at inference.",
+  "samples": [
+    {
+      "asr_transcript": "The final area is getting a read of all the available for the development.",
+      "correct_count": 1,
+      "correct_words": [
+        "final"
+      ],
+      "index": 0,
+      "input": "the final layer generates audio codes for the demo.",
+      "passed_2_words": false,
+      "peak": 0.5038804411888123,
+      "rms": 0.0577717199921608,
+      "wav": "sample_00_gemma_mimi_head.wav"
+    },
+    {
+      "asr_transcript": "the teacher model to connect the instrument to the video.",
+      "correct_count": 2,
+      "correct_words": [
+        "model",
+        "teacher"
+      ],
+      "index": 1,
+      "input": "the teacher model connects the final sample for the demo.",
+      "passed_2_words": true,
+      "peak": 0.3874642550945282,
+      "rms": 0.03717558830976486,
+      "wav": "sample_01_gemma_mimi_head.wav"
+    },
+    {
+      "asr_transcript": "the training even when that short phrase is fast pause.",
+      "correct_count": 2,
+      "correct_words": [
+        "short",
+        "training"
+      ],
+      "index": 2,
+      "input": "the training run maps short phrases from text prompts.",
+      "passed_2_words": true,
+      "peak": 0.42475563287734985,
+      "rms": 0.04645032808184624,
+      "wav": "sample_02_gemma_mimi_head.wav"
+    },
+    {
+      "asr_transcript": "The small adapter conditions clear the picture through frozen windows.",
+      "correct_count": 6,
+      "correct_words": [
+        "adapter",
+        "clear",
+        "conditions",
+        "frozen",
+        "small",
+        "through"
+      ],
+      "index": 3,
+      "input": "the small adapter conditions clear speech through frozen layers.",
+      "passed_2_words": true,
+      "peak": 0.6259195804595947,
+      "rms": 0.06493908166885376,
+      "wav": "sample_03_gemma_mimi_head.wav"
+    },
+    {
+      "asr_transcript": "The speech head generates the voices now.",
+      "correct_count": 3,
+      "correct_words": [
+        "generates",
+        "head",
+        "speech"
+      ],
+      "index": 4,
+      "input": "the speech head generates the voice output from text prompts.",
+      "passed_2_words": true,
+      "peak": 0.35787564516067505,
+      "rms": 0.03343973308801651,
+      "wav": "sample_04_gemma_mimi_head.wav"
+    },
+    {
+      "asr_transcript": "of always simple conditions on and off.",
+      "correct_count": 1,
+      "correct_words": [
+        "conditions"
+      ],
+      "index": 5,
+      "input": "the voice sample conditions the final sample for the demo.",
+      "passed_2_words": false,
+      "peak": 0.609569251537323,
+      "rms": 0.07123781740665436,
+      "wav": "sample_05_gemma_mimi_head.wav"
+    },
+    {
+      "asr_transcript": "The feature model matches the waveform with the X-POPs.",
+      "correct_count": 3,
+      "correct_words": [
+        "matches",
+        "model",
+        "waveform"
+      ],
+      "index": 6,
+      "input": "the teacher model matches the waveform from text prompts.",
+      "passed_2_words": true,
+      "peak": 0.7352107763290405,
+      "rms": 0.047137584537267685,
+      "wav": "sample_06_gemma_mimi_head.wav"
+    },
+    {
+      "asr_transcript": "Now the fries in the top are improved to the beverage.",
+      "correct_count": 0,
+      "correct_words": [],
+      "index": 7,
+      "input": "Now the frozen talker improves clear speech.",
+      "passed_2_words": false,
+      "peak": 0.35177144408226013,
+      "rms": 0.04348791390657425,
+      "wav": "sample_07_gemma_mimi_head.wav"
+    },
+    {
+      "asr_transcript": "The codec turned off. The internet was saving time.",
+      "correct_count": 1,
+      "correct_words": [
+        "codec"
+      ],
+      "index": 8,
+      "input": "the codec target predicts the teacher target with stable timing.",
+      "passed_2_words": false,
+      "peak": 0.502490222454071,
+      "rms": 0.04660329595208168,
+      "wav": "sample_08_gemma_mimi_head.wav"
+    },
+    {
+      "asr_transcript": "The voice is in the air, the hand is small, and the head act on.",
+      "correct_count": 1,
+      "correct_words": [
+        "voice"
+      ],
+      "index": 9,
+      "input": "the voice sample maps the final sample from text prompts.",
+      "passed_2_words": false,
+      "peak": 0.49818605184555054,
+      "rms": 0.04619434475898743,
+      "wav": "sample_09_gemma_mimi_head.wav"
+    },
+    {
+      "asr_transcript": "Until tomorrow, the peace and the wishes I've put in it all.",
+      "correct_count": 0,
+      "correct_words": [],
+      "index": 10,
+      "input": "the teacher model predicts the voice output for the demo.",
+      "passed_2_words": false,
+      "peak": 0.5602373480796814,
+      "rms": 0.05338488519191742,
+      "wav": "sample_10_gemma_mimi_head.wav"
+    },
+    {
+      "asr_transcript": "If a teacher model did it, it would be a closed context process.",
+      "correct_count": 2,
+      "correct_words": [
+        "model",
+        "teacher"
+      ],
+      "index": 11,
+      "input": "the teacher model generates audio codes from text prompts.",
+      "passed_2_words": true,
+      "peak": 0.4091118276119232,
+      "rms": 0.04148898646235466,
+      "wav": "sample_11_gemma_mimi_head.wav"
+    },
+    {
+      "asr_transcript": "the quen decoder that adds the leaf from the next class.",
+      "correct_count": 2,
+      "correct_words": [
+        "decoder",
+        "from"
+      ],
+      "index": 12,
+      "input": "the Qwen decoder guides the waveform from text prompts.",
+      "passed_2_words": true,
+      "peak": 0.5372051000595093,
+      "rms": 0.05284145846962929,
+      "wav": "sample_12_gemma_mimi_head.wav"
+    },
+    {
+      "asr_transcript": "The teacher model connected to the object page.",
+      "correct_count": 2,
+      "correct_words": [
+        "model",
+        "teacher"
+      ],
+      "index": 13,
+      "input": "the teacher model connects the talker states.",
+      "passed_2_words": true,
+      "peak": 0.41662609577178955,
+      "rms": 0.037682633846998215,
+      "wav": "sample_13_gemma_mimi_head.wav"
+    },
+    {
+      "asr_transcript": "The fine layer.",
+      "correct_count": 1,
+      "correct_words": [
+        "layer"
+      ],
+      "index": 14,
+      "input": "the final layer controls the waveform with stable timing.",
+      "passed_2_words": false,
+      "peak": 0.6373721957206726,
+      "rms": 0.05717392638325691,
+      "wav": "sample_14_gemma_mimi_head.wav"
+    }
+  ]
+}
